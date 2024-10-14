@@ -8,6 +8,9 @@ import MaskImg3 from '../assets/images/Mask group-4.png';
 import MaskImg4 from '../assets/images/Mask group-5.png';
 import MaskImg5 from '../assets/images/Mask group.png';
 import Lonely from '../assets/images/lonely.png';
+import Taff from '../assets/images/staff.png';
+import Game from '../assets/images/game.png';
+import Purse from '../assets/images/purse.png';
 import Footer from '../components/Footer';
 import ReactPlayer from 'react-player';
 import { gsap } from "gsap";
@@ -153,7 +156,7 @@ export default function Satchel() {
                         <Image src={MaskImg5} alt="Banner" className='h-full w-full object-cover ' />
                     </div>
                     <div className='gallery'>
-                        <Image src={MaskImg2} alt="Banner" className='h-full w-full object-cover' />
+                        <Image src={Taff} alt="Banner" className='h-full w-full object-cover' />
                     </div>
                     <div className='gallery'>
                         <Image src={MaskImg4} alt="Banner" className='h-full w-full object-cover' />
@@ -165,7 +168,7 @@ export default function Satchel() {
                         <Image src={MaskImg1} alt="Banner" className='h-full w-full object-cover' />
                     </div>
                     <div className='gallery'>
-                        <Image src={MaskImg3} alt="Banner" className='h-full w-full object-cover' />
+                        <Image src={Game} alt="Banner" className='h-full w-full object-cover' />
                     </div>
                 </div>
                 <Image src={FeaturedImg} alt="Banner" className='relative z-20 h-full w-full object-contain gallery' />
@@ -177,7 +180,7 @@ export default function Satchel() {
                         <Image src={MaskImg2} alt="Banner" className='h-full w-full object-cover' />
                     </div>
                     <div className='gallery'>
-                        <Image src={MaskImg4} alt="Banner" className='h-full w-full object-cover' />
+                        <Image src={Purse} alt="Banner" className='h-full w-full object-cover' />
                     </div>
                 </div>
 

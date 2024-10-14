@@ -8,7 +8,7 @@ import Image from 'next/image';
 export default function Career() {
     return (
         <section className='section career'>
-            <div className="padding pt-40 pb-16">
+            <div className="padding pt-40 pb-16 relative z-20">
                 <motion.h2
                     initial={{
                         translateY: 100,
@@ -107,6 +107,7 @@ export default function Career() {
                 </div>
 
             </div>
+            <div className="absolute z-10 h-full w-full inset-0 bg-black/70"/>
         </section>
     )
 }
