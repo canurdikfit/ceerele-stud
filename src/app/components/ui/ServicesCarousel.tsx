@@ -60,7 +60,7 @@ export default function ServicesCarousel() {
                             <div className='absolute inset-0 z-10 px-[5%] pt-[4%]'>
                                 <Image src={items.image} alt="Animation" className='h-[85%] w-full rounded-2xl' />
                                 <div className="flex-1 h-[15%] items-center justify-center flex">
-                                    <h6 className='uppercase relative z-10 xl:text-2xl md:text-lg text-lg btn_text_border'>{items.label}</h6>
+                                    <h6 className='uppercase relative z-10 xl:text-2xl md:text-lg text-lg'>{items.label}</h6>
                                 </div>
                             </div>
                         </motion.div>

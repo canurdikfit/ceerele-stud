@@ -99,8 +99,8 @@ export default function ProjectCarousel() {
                         <Swiper
                             effect={'cards'}
                             cardsEffect={{
-                                perSlideOffset: 20,
-                                perSlideRotate: 8
+                                perSlideOffset: 15,
+                                // perSlideRotate: 8
                             }}
                             autoplay={{
                                 delay: 8000,

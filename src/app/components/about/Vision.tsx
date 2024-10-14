@@ -4,9 +4,9 @@ import { motion } from "framer-motion"
 
 export default function Vision() {
     return (
-        <section className='padding about_sections section vision pb-20 md:pb-0 items-center'>
+        <section className='padding about_sections section vision pb-20 md:pb-0 items-center xl:items-end'>
 
-                <div className="relative z-10 grid md:grid-cols-5 overflow-visible items-center mt-auto">
+                <div className="relative z-10 grid md:grid-cols-5 overflow-visible items-center xl:items-end mt-auto">
                     <div className="md:col-span-3 space-y-5 lg:pb-10 xl:pb-20">
                         <motion.h2
                             initial={{

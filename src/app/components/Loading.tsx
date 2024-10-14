@@ -13,7 +13,7 @@ export default function Loading(props: Loader) {
                 <div className="relative z-10 h-screen flex items-end justify-center pb-52">
                     <button
                         onClick={props.onLoad}
-                        className='relative bb xl:h-28 xl:w-52 md:h-20 md:w-40 h-16 w-36 -rotate-6'>
+                        className='relative bb xl:h-36 xl:w-80 md:h-32 md:w-72 h-24 w-52 -rotate-6'>
                         <Image
                             src={RectangleBtn}
                             alt="Button"
@@ -21,7 +21,7 @@ export default function Loading(props: Loader) {
                             className='btn_designed'
 
                         />
-                        <h6 className='relative z-10 xl:text-3xl md:text-2xl text-xl btn_text_border'>Explore</h6>
+                        <h6 className='relative z-10 xl:text-3xl md:text-[27px] text-xl btn_text_border'>Explore The Studio</h6>
                     </button>
                 </div>
             </div>
