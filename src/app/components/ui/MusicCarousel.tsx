@@ -9,28 +9,31 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const Playlist = [
-    {
-        image: MusicCard,
-        title: 'Adupe',
-        urlSrc: '/faded.mp3',
-        spotify: 'https://open.spotify.com/track/05eNdzEkXKb7wa3ohABSaY?si=fbd01ba15832411a',
-        apple: 'https://music.apple.com/us/album/adupe/1592957622?i=1592957623',
-    },
-    {
-        image: MusicCard,
-        title: 'Bata',
-        urlSrc: '/juju.mp3',
-        spotify: 'https://open.spotify.com/track/71BInqLSCmJxZ85Nh3UfaI?si=b57b37a412784f38',
-        apple: 'https://music.apple.com/us/album/bata/1592957622?i=1592957624',
-    },
-    {
-        image: MusicCard,
-        title: 'Wonderful',
-        urlSrc: '/moving.mp3',
-        spotify: 'https://open.spotify.com/track/7uKJlsDdmhczNNz2Lw8F68?si=ea80e83eb34546ee',
-        apple: 'https://music.apple.com/us/album/wonderful/1592957622?i=1592957625',
-    },
-]
+  {
+    image: MusicCard,
+    title: "Adupe",
+    urlSrc: "/Adupe.mp3",
+    spotify:
+      "https://open.spotify.com/track/05eNdzEkXKb7wa3ohABSaY?si=fbd01ba15832411a",
+    apple: "https://music.apple.com/us/album/adupe/1592957622?i=1592957623",
+  },
+  {
+    image: MusicCard,
+    title: "Bata",
+    urlSrc: "/Bata.mp3",
+    spotify:
+      "https://open.spotify.com/track/71BInqLSCmJxZ85Nh3UfaI?si=b57b37a412784f38",
+    apple: "https://music.apple.com/us/album/bata/1592957622?i=1592957624",
+  },
+  {
+    image: MusicCard,
+    title: "Wonderful",
+    urlSrc: "/Wonderful.mp3",
+    spotify:
+      "https://open.spotify.com/track/7uKJlsDdmhczNNz2Lw8F68?si=ea80e83eb34546ee",
+    apple: "https://music.apple.com/us/album/wonderful/1592957622?i=1592957625",
+  },
+];
 
 export default function MusicCarousel() {
     const audioPlayerRef = React.useRef<any>()

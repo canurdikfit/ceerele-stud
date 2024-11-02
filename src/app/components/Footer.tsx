@@ -4,7 +4,7 @@ import { FaFacebook, FaLinkedin, FaRegCopyright } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
 import { IoMailOutline } from 'react-icons/io5'
 import { LuBuilding2 } from 'react-icons/lu'
-import Creele from './../assets/icons/creele.png';
+import Creele from './../assets/icons/footerLogo.png';
 import BoxReveal from './ui/box-reveal'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -42,7 +42,7 @@ export default function Footer() {
                                             key={index}
                                             className='flex items-center justify-center gap-5 h-10 w-10 rounded-full bg-[#FBD40D] hover:bg-black transition-colors group/icon ease-in-out duration-300'
                                         >
-                                            <Link href={items.label}>
+                                            <Link href={items.label} target='_blank'>
                                                 <items.icon className='text-black text-2xl transition-colors ease-in-out duration-300 group-hover/icon:text-white' />
                                             </Link>
                                         </li>
@@ -57,7 +57,7 @@ export default function Footer() {
                             src={Creele}
                             alt='Creele'
                             sizes='100%'
-                            className='h-16 md:h-20 xl:h-28 w-auto'
+                            className='h-6 md:h-8 w-auto'
                         />
                         <div className="flex gap-4">
                             {
@@ -65,6 +65,7 @@ export default function Footer() {
                                     return (
                                         <Link
                                             key={index}
+                                            target='_blank'
                                             href={items.hash}
                                             className='text-[#FBD40D] hover:text-white transition-colors ease-in-out duration-300'>
                                             <h6 className='text-lg underline underline-offset-4 whitespace-nowrap'>{items.label}</h6>
@@ -94,47 +95,47 @@ export default function Footer() {
 
 
 const FooterBasicInfo = [
-    [
-        {
-            icon: IoMailOutline,
-            label: 'info@creelestudios.com'
-        },
-        {
-            icon: BsTelephone,
-            label: 'TBD'
-        },
-        {
-            icon: LuBuilding2,
-            label: '13 Ilesanmi Idowu Street, Ogudu GRA, Lagos Nigeria'
-        }
-    ],
-    [
-        {
-            icon: FaFacebook,
-            label: ''
-        },
-        {
-            icon: FaXTwitter,
-            label: ''
-        },
-        {
-            icon: FaLinkedin,
-            label: ''
-        },
-        {
-            icon: BiLogoInstagramAlt,
-            label: ''
-        }
-    ],
-]
+  [
+    {
+      icon: IoMailOutline,
+      label: "info@creelestudios.com",
+    },
+    {
+      icon: BsTelephone,
+      label: "09066828247",
+    },
+    {
+      icon: LuBuilding2,
+      label: "13 Ilesanmi Idowu Street, Ogudu GRA, Lagos Nigeria",
+    },
+  ],
+  [
+    {
+      icon: FaFacebook,
+      label: "https://web.facebook.com/p/Creele-Animation-Studios",
+    },
+    {
+      icon: FaXTwitter,
+      label: "https://x.com/creelestudios?s=21",
+    },
+    {
+      icon: FaLinkedin,
+      label: "https://www.linkedin.com/company/creele-animation-studios",
+    },
+    {
+      icon: BiLogoInstagramAlt,
+      label: "https://www.instagram.com/creelestudio?igsh=MWc1eGF4enlubnFhdg==",
+    },
+  ],
+];
 
 const BasicLinks = [
     {
         label: 'Careers',
-        hash: ''
+        hash: 'https://airtable.com/app2BTfHuoEs6H1zu/pagyJVqUISwVrYAxY/form'
     },
     {
         label: 'BOOK A MEETING',
-        hash: ''
+        hash: 'https://outlook.office365.com/owa/calendar/CreeleStudiosMeetings@creelestudios.com/bookings/'
     }
 ]

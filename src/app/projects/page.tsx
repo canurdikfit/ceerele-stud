@@ -64,18 +64,20 @@ export default function Projects() {
 }
 
 const ProjectContent = [
-    {
-        type: '3D Short Film',
-        heading: 'The satchel',
-        content: 'A vigorous and compelling tale of African origin about two brothers fighting for the power to create a world using an all-powerful “Satchel”. A drama-filled, entertaining story sure to leave you at the edge of your screen! Taking you to the mystical lands of “The Satchel”',
-        projectUrl: 'satchel',
-        image: ProjectImage
-    },
-    {
-        type: '3D Short Film',
-        heading: 'Connect',
-        content: 'Unconditional love between parents and children can sometimes be hard to maintain, as seen in this musical about a strict father and his rebellious son.',
-        projectUrl: 'connect',
-        image: ProjectImage2
-    },
-]
+  {
+    type: "3D Short Film",
+    heading: "The satchel",
+    content:
+      "A vigorous and compelling tale of African origin about two brothers fighting for the power to create a world using an all-powerful “Satchel”. A drama-filled, entertaining story sure to leave you at the edge of your screen! Taking you to the mystical lands of “The Satchel”",
+    projectUrl: "satchel",
+    image: ProjectImage,
+  },
+  {
+    type: "3D Short Film",
+    heading: "Sopo",
+    content:
+      "Unconditional love between parents and children can sometimes be hard to maintain, as seen in this musical about a strict father and his rebellious son.",
+    projectUrl: "connect",
+    image: ProjectImage2,
+  },
+];
