@@ -32,7 +32,7 @@ export default function Navbar() {
             <div
                 className='relative mx-auto h-32 flex items-center'>
                 <div className='relative z-10 flex items-center justify-between w-full'>
-                    <Link href={'/'} className='flex-shrink-0'>
+                    <Link href={'/home'} className='flex-shrink-0'>
                         <Image
                             src={Creele}
                             alt='Creele'
